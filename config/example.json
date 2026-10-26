@@ -1,0 +1,5 @@
+{
+  "registry": "0x0000000000000000000000000000000000000000",
+  "chainId": 100,
+  "rpcs": ["https://gnosis-rpc.arobase.chat", "https://rpc.gnosischain.com"]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "arobase-chat-push-relay",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arobasechat/arobase-chat-push-relay.git"
+  },
+  "scripts": {
+    "relay": "tsx src/relay.ts",
+    "monitor": "tsx src/monitor.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test --test-reporter=spec test/*.test.ts"
+  },
+  "dependencies": {
+    "@noble/ciphers": "^2.4.0",
+    "@noble/curves": "^2.4.0",
+    "@noble/hashes": "^2.4.0",
+    "tsx": "^4.23.15",
+    "viem": "^2.57.11",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/web-push": "^3.6.4",
+    "typescript": "^7.0.2"
+  }
+}
